@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+}
+
+header {
+    background-color: #e0c8c8;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Optional: Style the active link differently */
+nav a:hover {
+    color: #ff6600; /* Change to your preferred hover color */
+}
+
+#services {
+    text-align: center;
+}
+
+#services h2,
+#services p,
+#services h3 {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+#services img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#services footer {
+    background-color: #333;
+    color: #cac2c2;
+    text-align: center;
+    padding: 10px;
+}
+

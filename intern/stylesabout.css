@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+}
+
+header {
+    background-color: #e0c8c8;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Optional: Style the active link differently */
+nav a:hover {
+    color: #ff6600; /* Change to your preferred hover color */
+}
+
+.about-section {
+    padding: 20px;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px;
+}
+
+.about-section h3 {
+    font-size: 1.5em;
+    margin-top: 20px; /* Add spacing between subheadings */
+}
+
+.about-section p {
+    font-size: 1.2em;
+}
+
+footer {
+    background-color:#e0c8c8;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-section {
+    background: url('aboutus1.jpg') center/cover no-repeat; /* Replace 'background-image.jpg' with your actual image file */
+    color: rgb(87, 31, 31);
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+}
